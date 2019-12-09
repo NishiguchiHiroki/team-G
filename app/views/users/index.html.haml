@@ -1,0 +1,27 @@
+.call__content
+  .header
+    
+  .contents
+    .content
+      .content__title
+        %p 電話番号の確認
+      .content__box
+        .content__boxes
+          .content__form  
+            %label{class: "label__title"} 携帯電話の番号
+            %input{placeholder: "携帯電話の番号入力", class: "input__form"}
+          %p
+            本人確認のため、携帯電話のSMS(ショートメッセージサービス)を利用して認証を行います。
+          = link_to '#', class: 'content__btn' do
+            SMSを送信する
+          %p ※電話番号は本人確認や不正利用防止のために利用します。他のユーザーに公開されることはありません。
+          .content__bottom
+            =link_to '#' do
+              電話番号が必要な理由
+              .i-class
+                >
+
+
+
+  .footer
+    

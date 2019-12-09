@@ -1,0 +1,154 @@
+
+
+.label__title {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 14px;
+  font-family: 'Source Sans Pro', Helvetica , 
+  Arial, '游ゴシック体', 'YuGothic', 
+  'メイリオ', 'Meiryo', sans-serif;
+}
+
+.input__form {
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  outline: none;
+  height: 48px;
+  padding: 10px 16px 8px;
+  margin-top: 8px;
+  font-size: 16px;   
+}
+.input__form:focus {
+  border-color: #0099e8;
+}
+.form__text {
+  color: #fff;
+  background-color: red;
+  border-radius: 2px;
+  font-size: 12px;
+  padding: 2px 4px;
+  vertical-align: top;
+  margin-left: 8px;
+}
+.select__span {
+  font-size: 14px;
+  color: #333333;
+  margin: 0 8px;
+}
+li:first-child {
+  margin: 0;
+}
+li {
+  display: inline-block;
+  margin-left: 8px;
+  vertical-align: middle;
+}
+img {
+  vertical-align: middle;
+}
+option {
+  font-weight: normal;
+  display: block;
+  white-space: pre;
+  min-height: 1.2rem;
+  
+}
+
+
+
+.content__boxtt {
+  height: 448px;
+  background-color: #fff;
+  border-top: 1px solid #f5f5f5;
+  padding: 24px 16px 40px;
+  .content__boxestt{
+    max-width: 343px;
+    margin: 0 auto;
+    height: 383px;
+    .content__formtt {
+      height: 98px;
+      .card__icon {
+        margin-top: 8px;
+        font-size: 0;
+      }
+    }
+    .content__limit {
+      margin-top: 24px;
+      height: 70px;
+      .content__select {
+        display: inline-block;
+        position: relative;
+        // width: 169.5px;
+        // width: calc(50% - 2px);
+        .select__box {
+          // width: calc(100% - 38px);
+          height: 48px;
+          width: 131.5px;
+          padding: 0 16px;
+          border-radius: 4px;
+          border: 1px solid #ccc;
+          background: 0;
+          outline: none;
+          font-size: 16px;
+          line-height: 1.5;
+          -webkit-appearance: none;
+          position: relative;
+          cursor: pointer;
+        }
+        .select__box:focus {
+          border-color: #0098e8
+        }
+        .select__icon {
+          position: absolute;
+          top: 8px;
+          right: 50px;
+          font-size: 30px;
+          pointer-events: none;
+          opacity: 0.5;
+        }
+      }
+    }
+    .content__code {
+      margin-top: 24px;
+      height: 93px;
+      .bottom__info {
+        margin-top: 8px;
+        position: relative;
+        .bottom__box {
+          text-align: right;
+          color: #0099e8;
+          font-size: 14px;
+          .bottom__span {
+            display: inline-block;
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            color: #fff;
+            background-color: #0099e8;
+            line-height: 14px;
+            font-size: 12px;
+            text-align: center;
+            
+          }
+        }
+      }
+    }
+    .content__btn {
+      margin-top: 24px;
+      text-decoration: none;
+      color: #fff;
+      background-color: red;
+      border: 1px solid #ea352d;
+      display: block;
+      height: 50px;
+      text-align: center;
+      line-height: 48px;
+      transition: all ease-out .3s;
+      opacity: 0.9;
+    }
+    .content__btn:hover {
+      opacity: 1;
+    }
+  }
+}
