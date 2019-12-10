@@ -2,10 +2,8 @@
 .navigation
   .navigation__container
     .navigation__container__content
-      = link_to "" do
-        %span メルカリ 
-        %i.fa.fa-angle-right{"aria-hidden" => "true"}
-        %span  マイページ
+      = render 'shared/breadcrumbs'
+       
 .mypage
   .mypage__main
     = render "users-sidebar"
